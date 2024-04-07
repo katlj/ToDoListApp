@@ -1,0 +1,15 @@
+When creating a event handler you:
+    1. Define a function within the component starting with "handle"
+    2. Pass it as a prop to the appropiate JSX Tag. EX(a button)
+    <button onCLick = {prop}
+    onX = {yza}
+SHORTHAND VERSION with arrow function
+button onCLick = {() => {alert("You clicked me!")}}>
+What are props?
+- Props are propoerties. class name, src, width height. are properties you can pass to an image.
+    SYNTAX:
+    <Component
+        prop1 = {value}
+        prop2 = {{value1: 500, value2::Ashley}} double is an object like person
+    />
+Props can be passed ffrom Parent to child in {brackets} within the parenthesis of the Component
